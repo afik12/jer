@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f9fafb;
+  --foreground: #111827;
+  --locker-panel: #f3f4f6;
+  --locker-border: #e5e7eb;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Touch-friendly: prevent zoom on double-tap for buttons/links */
+@media (pointer: coarse) {
+  button, a {
+    touch-action: manipulation;
+  }
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

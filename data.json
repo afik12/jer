@@ -1,0 +1,197 @@
+{
+  "categories": [
+    { "id": "premier-league", "label": "פרימייר ליג", "href": "/leagues/premier-league", "accent": "#3d195b", "imageUrl": "https://placehold.co/400x500/1e3a5f/ffffff?text=Premier+League+Model" },
+    { "id": "la-liga", "label": "La Liga", "href": "/leagues/la-liga", "accent": "#eb1c2d", "imageUrl": "https://placehold.co/400x500/cb3524/ffffff?text=La+Liga+Model" },
+    { "id": "serie-a", "label": "Serie A", "href": "/leagues/serie-a", "accent": "#024494", "imageUrl": "https://placehold.co/400x500/024494/ffffff?text=Serie+A+Model" },
+    { "id": "retro", "label": "Retro", "href": "/leagues/retro", "accent": "#0d0d0d", "imageUrl": "https://placehold.co/400x500/2d2d2d/ffffff?text=Retro+Classic+Jersey" },
+    { "id": "kids", "label": "Kids", "href": "/kids", "accent": "#0d9488", "imageUrl": "https://placehold.co/400x500/0d9488/ffffff?text=Kids+Youth+Jersey" }
+  ],
+  "topTeams": [
+    { "id": "barcelona", "label": "Barcelona", "clubName": "FC Barcelona" },
+    { "id": "real-madrid", "label": "Real Madrid", "clubName": "Real Madrid" },
+    { "id": "man-city", "label": "Man City", "clubName": "Manchester City" },
+    { "id": "ac-milan", "label": "AC Milan", "clubName": "AC Milan" },
+    { "id": "liverpool", "label": "Liverpool", "clubName": "Liverpool" },
+    { "id": "juventus", "label": "Juventus", "clubName": "Juventus" }
+  ],
+  "jerseys": [
+    {
+      "id": "barca-08-09",
+      "title": "FC Barcelona Home 2008/09",
+      "club": "FC Barcelona",
+      "league": "La Liga",
+      "era": "The Treble Season",
+      "decade": "00s",
+      "story": "Pep Guardiola's first season. The kit that witnessed the historic treble.",
+      "theme": { "primary": "#A50044", "secondary": "#004D98", "bgStart": "#0d0a0c", "bgEnd": "#1a1520" },
+      "imageUrl": "https://placehold.co/800x1000/A50044/ffffff?text=Barcelona+08-09",
+      "images": [
+        "https://placehold.co/800x1000/A50044/ffffff?text=Barca+Front",
+        "https://placehold.co/800x1000/A50044/ffffff?text=Barca+Back",
+        "https://placehold.co/800x1000/004D98/ffffff?text=Barca+Detail",
+        "https://placehold.co/800x1000/A50044/ffffff?text=Barca+Fit"
+      ],
+      "price": 129.99,
+      "sizes": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": "real-01-02",
+      "title": "Real Madrid Home 2001/02",
+      "club": "Real Madrid",
+      "league": "La Liga",
+      "era": "Zidane's Volley",
+      "decade": "00s",
+      "story": "Hampden Park. Zidane's legendary volley. The ninth European Cup.",
+      "theme": { "primary": "#FFFFFF", "secondary": "#FEBE10", "bgStart": "#141414", "bgEnd": "#1f1f1f" },
+      "imageUrl": "https://placehold.co/800x1000/ffffff/FEBE10?text=Real+01-02",
+      "images": [
+        "https://placehold.co/800x1000/ffffff/FEBE10?text=Real+Front",
+        "https://placehold.co/800x1000/ffffff/FEBE10?text=Real+Back",
+        "https://placehold.co/800x1000/FEBE10/ffffff?text=Real+Detail"
+      ],
+      "price": 119.99,
+      "sizes": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": "atletico-13-14",
+      "title": "Atlético Madrid Home 2013/14",
+      "club": "Atlético Madrid",
+      "league": "La Liga",
+      "era": "La Liga Champions",
+      "decade": "10s",
+      "story": "Simeone's warriors. The season Atlético broke the duopoly.",
+      "theme": { "primary": "#CB3524", "secondary": "#0D2137", "bgStart": "#0f0a0a", "bgEnd": "#1a0d0d" },
+      "imageUrl": "https://placehold.co/800x1000/CB3524/ffffff?text=Atletico+13-14",
+      "price": 104.99,
+      "sizes": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": "man-city-21-22",
+      "title": "Manchester City Home 2021/22",
+      "club": "Manchester City",
+      "league": "פרימייר ליג",
+      "era": "The Centurions Legacy",
+      "decade": "20s",
+      "story": "Sky Blue at its finest. Guardiola's dominance in England.",
+      "theme": { "primary": "#6CABDD", "secondary": "#1C2C5B", "bgStart": "#0a0e1a", "bgEnd": "#152238" },
+      "imageUrl": "https://placehold.co/800x1000/6CABDD/1C2C5B?text=Man+City+21-22",
+      "images": [
+        "https://placehold.co/800x1000/6CABDD/1C2C5B?text=City+Front",
+        "https://placehold.co/800x1000/6CABDD/1C2C5B?text=City+Back",
+        "https://placehold.co/800x1000/1C2C5B/6CABDD?text=City+Detail",
+        "https://placehold.co/800x1000/6CABDD/ffffff?text=City+Side"
+      ],
+      "price": 89.99,
+      "sizes": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": "liverpool-18-19",
+      "title": "Liverpool Home 2018/19",
+      "club": "Liverpool",
+      "league": "פרימייר ליג",
+      "era": "The Sixth",
+      "decade": "10s",
+      "story": "Madrid 2019. The red that brought the sixth European Cup to Anfield.",
+      "theme": { "primary": "#C8102E", "secondary": "#00B2A9", "bgStart": "#140a0c", "bgEnd": "#1f0d12" },
+      "imageUrl": "https://placehold.co/800x1000/C8102E/ffffff?text=Liverpool+18-19",
+      "images": [
+        "https://placehold.co/800x1000/C8102E/ffffff?text=LFC+Front",
+        "https://placehold.co/800x1000/C8102E/00B2A9?text=LFC+Back",
+        "https://placehold.co/800x1000/00B2A9/C8102E?text=LFC+Detail"
+      ],
+      "price": 94.99,
+      "sizes": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": "chelsea-11-12",
+      "title": "Chelsea Home 2011/12",
+      "club": "Chelsea",
+      "league": "פרימייר ליג",
+      "era": "Munich Miracle",
+      "decade": "10s",
+      "story": "Drogba's header. The night in Munich. Chelsea's first Champions League.",
+      "theme": { "primary": "#034694", "secondary": "#DBA111", "bgStart": "#0a0c14", "bgEnd": "#151a28" },
+      "imageUrl": "https://placehold.co/800x1000/034694/DBA111?text=Chelsea+11-12",
+      "price": 109.99,
+      "sizes": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": "milan-88-89",
+      "title": "AC Milan Home 1988/89",
+      "club": "AC Milan",
+      "league": "Serie A",
+      "era": "The Dutch Masters",
+      "decade": "80s",
+      "story": "Gullit, Van Basten, Rijkaard. Sacchi's immovable defence.",
+      "theme": { "primary": "#FB090B", "secondary": "#000000", "bgStart": "#0f0a0a", "bgEnd": "#1a0d0d" },
+      "imageUrl": "https://placehold.co/800x1000/FB090B/ffffff?text=Milan+88-89",
+      "price": 149.99,
+      "sizes": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": "juve-95-96",
+      "title": "Juventus Home 1995/96",
+      "club": "Juventus",
+      "league": "Serie A",
+      "era": "The Old Lady's European Crown",
+      "decade": "90s",
+      "story": "Lippi's first Champions League. Black and white stripes.",
+      "theme": { "primary": "#000000", "secondary": "#FFFFFF", "bgStart": "#0a0a0a", "bgEnd": "#181818" },
+      "imageUrl": "https://placehold.co/800x1000/000000/ffffff?text=Juve+95-96",
+      "price": 134.99,
+      "sizes": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": "inter-09-10",
+      "title": "Inter Milan Home 2009/10",
+      "club": "Inter Milan",
+      "league": "Serie A",
+      "era": "The Treble",
+      "decade": "00s",
+      "story": "Mourinho's treble. Serie A, Coppa, Champions League in Madrid.",
+      "theme": { "primary": "#003399", "secondary": "#000000", "bgStart": "#0a0a0f", "bgEnd": "#14141f" },
+      "imageUrl": "https://placehold.co/800x1000/003399/ffffff?text=Inter+09-10",
+      "price": 124.99,
+      "sizes": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": "bayern-12-13",
+      "title": "Bayern Munich Home 2012/13",
+      "club": "Bayern Munich",
+      "league": "Rest of World",
+      "era": "The Treble at Wembley",
+      "decade": "10s",
+      "story": "Heynckes' machine. Robben's redemption at Wembley.",
+      "theme": { "primary": "#DC052D", "secondary": "#0066B3", "bgStart": "#0f0a0b", "bgEnd": "#1a0d12" },
+      "imageUrl": "https://placehold.co/800x1000/DC052D/0066B3?text=Bayern+12-13",
+      "price": 99.99,
+      "sizes": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": "ajax-94-95",
+      "title": "Ajax Home 1994/95",
+      "club": "Ajax",
+      "league": "Rest of World",
+      "era": "The Golden Generation",
+      "decade": "90s",
+      "story": "Van Gaal's young guns. Kluivert's winner in Vienna.",
+      "theme": { "primary": "#D31145", "secondary": "#FFFFFF", "bgStart": "#140a0d", "bgEnd": "#1a0f14" },
+      "imageUrl": "https://placehold.co/800x1000/D31145/ffffff?text=Ajax+94-95",
+      "price": 139.99,
+      "sizes": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": "dortmund-12-13",
+      "title": "Borussia Dortmund Home 2012/13",
+      "club": "Borussia Dortmund",
+      "league": "Rest of World",
+      "era": "Klopp's Final",
+      "decade": "10s",
+      "story": "The yellow wall. Wembley 2013. A season to remember.",
+      "theme": { "primary": "#FDE100", "secondary": "#000000", "bgStart": "#14140a", "bgEnd": "#1f1f0d" },
+      "imageUrl": "https://placehold.co/800x1000/FDE100/000000?text=Dortmund+12-13",
+      "price": 97.99,
+      "sizes": ["S", "M", "L", "XL"]
+    }
+  ]
+}
