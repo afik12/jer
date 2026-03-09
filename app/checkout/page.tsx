@@ -293,7 +293,7 @@ export default function CheckoutPage() {
                 </ul>
                 <div className="mt-4 border-t border-gray-200 pt-4">
                   <div className="flex justify-between text-lg font-semibold">
-                    <span>סה"כ</span>
+                    <span>{"סה\"כ"}</span>
                     <span>₪{subtotal.toFixed(2)}</span>
                   </div>
                 </div>

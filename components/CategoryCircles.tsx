@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { CATEGORIES } from "@/lib/categories";
 
@@ -32,9 +33,11 @@ export function CategoryCircles() {
                 }}
                 whileTap={{ scale: 0.98 }}
               >
-                <img
+                <Image
                   src={cat.imageUrl}
                   alt=""
+                  width={100}
+                  height={100}
                   className="h-full w-full object-cover object-center"
                 />
               </motion.div>
