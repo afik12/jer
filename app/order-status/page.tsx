@@ -1,12 +1,12 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 
 type Status = "pending-payment" | "paid" | "completed";
 
-export default function OrderStatusPage() {
+function OrderStatusContent() {
   const searchParams = useSearchParams();
   const q = searchParams.get("orderId") ?? "";
   const [orderId, setOrderId] = useState("");
@@ -116,5 +116,13 @@ export default function OrderStatusPage() {
         </Link>
       </div>
     </main>
+  );
+}
+
+export default function OrderStatusPage() {
+  return (
+    <Suspense fallback={<main className="min-h-screen bg-gray-50 flex items-center justify-center"><p className="text-gray-500">טוען...</p></main>}>
+      <OrderStatusContent />
+    </Suspense>
   );
 }

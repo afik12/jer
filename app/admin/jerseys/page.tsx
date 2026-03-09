@@ -305,7 +305,7 @@ export default function AdminJerseysPage() {
               <input
                 type="text"
                 value={form.theme?.primary ?? "#000000"}
-                onChange={(e) => setForm((f) => ({ ...f, theme: { ...f.theme, primary: e.target.value } }))}
+                onChange={(e) => setForm((f) => ({ ...f, theme: { primary: e.target.value, secondary: f.theme?.secondary ?? "#ffffff" } }))}
                 className="mt-1 w-full rounded-lg border border-gray-200 px-3 py-2 text-gray-900"
                 placeholder="#A50044"
               />
@@ -315,7 +315,7 @@ export default function AdminJerseysPage() {
               <input
                 type="text"
                 value={form.theme?.secondary ?? "#ffffff"}
-                onChange={(e) => setForm((f) => ({ ...f, theme: { ...f.theme, secondary: e.target.value } }))}
+                onChange={(e) => setForm((f) => ({ ...f, theme: { primary: f.theme?.primary ?? "#000000", secondary: e.target.value } }))}
                 className="mt-1 w-full rounded-lg border border-gray-200 px-3 py-2 text-gray-900"
                 placeholder="#004D98"
               />

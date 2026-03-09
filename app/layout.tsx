@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import "./globals.css";
 import { Providers } from "@/components/Providers";
 import { AnnouncementBar } from "@/components/AnnouncementBar";
@@ -21,7 +22,9 @@ export default function RootLayout({
         <Providers>
           <header className="fixed top-0 left-0 right-0 z-30 flex flex-col bg-white shadow-sm">
             <AnnouncementBar />
-            <Navbar />
+            <Suspense fallback={<div className="h-16 bg-white" />}>
+              <Navbar />
+            </Suspense>
           </header>
           <div className="min-h-screen pt-[6.25rem]">{children}</div>
         </Providers>

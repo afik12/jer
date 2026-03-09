@@ -18,7 +18,7 @@ const PATCH_LABELS: Record<string, string> = {
 };
 
 function buildOrderPayload(
-  items: { jersey: { id: string; title: string; price?: number; imageUrl?: string; images?: string[] }; quantity: number; size?: string; customName?: string; customNumber?: string; patch?: string }[],
+  items: { jersey: { id: string; title: string; price?: number; imageUrl?: string; images?: string[]; league?: string }; quantity: number; size?: string; customName?: string; customNumber?: string; patch?: string }[],
   customer: OrderCustomer,
   shippingMethod: ShippingMethod,
   paymentMethod: PaymentMethod,

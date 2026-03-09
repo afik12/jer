@@ -2,9 +2,9 @@
 
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 
-export default function ThankYouPage() {
+function ThankYouContent() {
   const searchParams = useSearchParams();
   const orderId = searchParams.get("orderId");
   const pending = searchParams.get("pending") === "1";
@@ -83,5 +83,13 @@ export default function ThankYouPage() {
         </div>
       </div>
     </main>
+  );
+}
+
+export default function ThankYouPage() {
+  return (
+    <Suspense fallback={<main className="min-h-screen bg-gray-50 flex items-center justify-center"><p className="text-gray-500">טוען...</p></main>}>
+      <ThankYouContent />
+    </Suspense>
   );
 }
